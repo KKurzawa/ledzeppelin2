@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --FONT-ONE: 'Kashmir', sans-serif;
+}
+.html{
+  background-color: #100D04;
+}
+body{
+  width: 1200px;
+  height: 450px;
+  background-color: #100D04;
+}
+
+.main{
+  overflow: hidden;
+  position: relative;
+  background-color: #B59330;
+  width: 1200px;
+  height: 400px;
+  font-family: var(--FONT-ONE);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  /* border: solid 5px #100D04;
+  outline: solid 5px #B59330; */
+  left: 30px;
+  top: 30px;
+  box-shadow: 
+  0 0 0 4px #623f17, 
+  0 0 0 8px #100D04,
+  0 0 0 12px #B59330,
+  0 0 0 16px #100D04;
+}
+
+.album-art{
+  opacity: 0.5;
+  position: absolute;
+  bottom: -430px;
+  width: 100%;
+  height: auto;
+  /* filter: sepia(100%); */
+}
+
+.cadieux-logo{
+  position: absolute;
+  left: 60px;
+  top: 60px;
+  width: 15%;
+  height: auto;
+  /* filter: sepia(50%); */
+}
+
+.led-text,
+.plays-text,
+.houses-text,
+.other-text,
+.date-text{
+  position: relative;
+}
+
+.led-text{
+  background-color: #100D04;
+  color: #B59330;
+  box-shadow: 
+  0 0 0 2px #623f17, 
+  0 0 0 4px #100D04,
+  0 0 0 6px #B59330,
+  0 0 0 8px #100D04;
+}
+
+.plays-text,
+.other-text,
+.date-text,
+.time-cover{
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.time-cover{
+  position: absolute;
+  top: 60px;
+  right: 80px;
+}
